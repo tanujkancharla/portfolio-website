@@ -1,0 +1,62 @@
+/* Reset some default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f172a;
+    color: white;
+}
