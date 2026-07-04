@@ -23,29 +23,34 @@ header {
 
 /* Navigation */
 nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
     margin-top: 20px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    font-weight: 600;
+    transition:color 0.3s ease;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #38bdf8;
 }
 
 /* Main content */
 main {
-    max-width: 900px;
-    margin: auto;
-    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 25px;
 }
 
 /* Sections */
 section {
-    margin-bottom: 60px;
+    padding: 50px 0;
+    border-bottom: 1px solid #e5e7eb;
 }
 
 h2 {
