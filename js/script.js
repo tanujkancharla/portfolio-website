@@ -13,4 +13,7 @@ console.log(major);
 
 const title = document.getElementById("title");
 console.log(title);
-title.textContent = "Tanuj Kancharla 🚀";
+title.textContent = "Tanuj Kancharla";
+
+const themeToggle = document.getElementById("theme-toggle");
+console.log(themeToggle);
