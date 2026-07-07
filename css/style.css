@@ -151,3 +151,35 @@ footer {
 #theme-toggle:hover {
     transform: scale(1.08);
 }
+
+.dark-mode {
+    background-color: #0f172a;
+    color: #d4d4d4;
+}
+
+.dark-mode section {
+    border-bottom: 1px solid #334155;
+}
+
+.dark-mode .project-card {
+    background-color: #1e293b;
+    color: #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+.dark-mode .project-card h3 {
+    color: #f8fafc;
+}
+
+.dark-mode .project-card p {
+    color: #cbd5e1;
+}
+
+.dark-mode .project-card span {
+    color: #38bdf8;
+}
+
+.dark-mode h2,
+.dark-mode h3 {
+    color: #f8fafc;
+}

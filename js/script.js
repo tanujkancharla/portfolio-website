@@ -17,3 +17,7 @@ title.textContent = "Tanuj Kancharla";
 
 const themeToggle = document.getElementById("theme-toggle");
 console.log(themeToggle);
+
+themeToggle.addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+});
