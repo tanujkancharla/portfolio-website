@@ -183,3 +183,6 @@ footer {
 .dark-mode h3 {
     color: #f8fafc;
 }
+html {
+    scroll-behavior: smooth;
+}
